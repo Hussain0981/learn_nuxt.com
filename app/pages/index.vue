@@ -4,6 +4,6 @@
 
 <template>
     <div>
-        <h1>Home Page</h1>
+        <h1 class="text-xl underline font-bold">Home Page</h1>
     </div>
 </template>
