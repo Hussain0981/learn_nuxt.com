@@ -12,5 +12,13 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxt/eslint'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/color-mode',
+    '@nuxt/icon'
+  ],
+  colorMode: {
+    classSuffix: '',
+    storage: 'localStorage'
+  },
 })

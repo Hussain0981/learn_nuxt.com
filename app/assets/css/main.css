@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.border-base {
+    @apply border-gray-100 dark:border-white/20;
+} 
+
+.row {
+    @apply flex items-center;
+}
