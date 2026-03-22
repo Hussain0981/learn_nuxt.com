@@ -21,4 +21,18 @@ export default defineNuxtConfig({
     classSuffix: '',
     storage: 'localStorage'
   },
+
+  // webContainer settings
+  nitro: {
+    routeRules: {
+      '/*': {
+        cors: true,
+        headers: {
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin"
+        },
+      },
+    },
+  }
+
 })
